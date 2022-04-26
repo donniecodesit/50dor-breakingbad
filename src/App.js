@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './Components/NavBar';
+import SearchBar from './Components/SearchBar';
+import CharacterList from './Components/CharacterList';
+import Loading from './Components/Loading';
+import { useState, useEffect } from 'react';
+import axios from './Components/API';
 
 function App() {
+  const [chars, setChars] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    const loadChars = async() => {
+      const response = await axios.get(`/characters?name=${search}`);
+      setChars(response.data);
+      setLoading(false);
+    }
+    loadChars();
+  }, [search])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <SearchBar setSearch={setSearch} />
+      {loading ? <Loading /> : <CharacterList chars={chars} />}
     </div>
   );
 }
