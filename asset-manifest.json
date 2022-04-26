@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-breakingbad/static/css/main.b0c186e8.css",
+    "main.js": "/react-breakingbad/static/js/main.1257b39b.js",
+    "static/media/spinner.gif": "/react-breakingbad/static/media/spinner.11d9cde8ebaeadb07ba7.gif",
+    "static/media/bg.jpg": "/react-breakingbad/static/media/bg.085908ea8f76e1ae1806.jpg",
+    "static/media/logo.png": "/react-breakingbad/static/media/logo.e6ecab4407f10ecd02bd.png",
+    "index.html": "/react-breakingbad/index.html",
+    "main.b0c186e8.css.map": "/react-breakingbad/static/css/main.b0c186e8.css.map",
+    "main.1257b39b.js.map": "/react-breakingbad/static/js/main.1257b39b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0c186e8.css",
+    "static/js/main.1257b39b.js"
+  ]
+}
