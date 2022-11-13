@@ -2,7 +2,7 @@
   "name": "10breakingbad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://donovanlaws.github.io/react-breakingbad",
+  "homepage": "https://donniecodesit.github.io/react-breakingbad",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
