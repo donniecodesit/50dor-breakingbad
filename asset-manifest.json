@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-breakingbad/static/css/main.b0c186e8.css",
-    "main.js": "/react-breakingbad/static/js/main.1257b39b.js",
-    "static/media/spinner.gif": "/react-breakingbad/static/media/spinner.11d9cde8ebaeadb07ba7.gif",
-    "static/media/bg.jpg": "/react-breakingbad/static/media/bg.085908ea8f76e1ae1806.jpg",
-    "static/media/logo.png": "/react-breakingbad/static/media/logo.e6ecab4407f10ecd02bd.png",
-    "index.html": "/react-breakingbad/index.html",
-    "main.b0c186e8.css.map": "/react-breakingbad/static/css/main.b0c186e8.css.map",
-    "main.1257b39b.js.map": "/react-breakingbad/static/js/main.1257b39b.js.map"
+    "main.css": "/50dor-breakingbad/static/css/main.6799f810.css",
+    "main.js": "/50dor-breakingbad/static/js/main.36015c55.js",
+    "static/media/spinner.gif": "/50dor-breakingbad/static/media/spinner.11d9cde8ebaeadb07ba7.gif",
+    "static/media/bg.jpg": "/50dor-breakingbad/static/media/bg.085908ea8f76e1ae1806.jpg",
+    "static/media/logo.png": "/50dor-breakingbad/static/media/logo.e6ecab4407f10ecd02bd.png",
+    "index.html": "/50dor-breakingbad/index.html",
+    "main.6799f810.css.map": "/50dor-breakingbad/static/css/main.6799f810.css.map",
+    "main.36015c55.js.map": "/50dor-breakingbad/static/js/main.36015c55.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c186e8.css",
-    "static/js/main.1257b39b.js"
+    "static/css/main.6799f810.css",
+    "static/js/main.36015c55.js"
   ]
 }
